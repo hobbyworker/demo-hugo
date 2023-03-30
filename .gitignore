@@ -1,0 +1,28 @@
+# .gitignore for Hugo projects
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Hugo generated files
+/public/
+/resources/_gen/
+
+# IDE and text editor files
+*.sublime*
+*.iml
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*~
+
+# Temporary and cache files
+*.log
+*.slog
+.cache/
+.hugo_build.lock
+
